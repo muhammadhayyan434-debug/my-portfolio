@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import profileImg from './assets/h.jpg';
 import "./App.css";
-import img from './assets/h.jpg';
+
 
 import cybercrimeCertificate from './assets/cybercrime.jpeg';
 import ecommerceCertificate from './assets/ecommerce.jpeg';
@@ -40,7 +40,7 @@ function Home({ onNav, scrollToRef }) {
         <div className="icon-row">
           <a href="https://www.linkedin.com/in/hayyanabbasi03" target="_blank" rel="noreferrer" title="LinkedIn (opens new tab)">LinkedIn</a>
           <a href="mailto:hayyanabbasi03@gmail.com" title="Email">Email</a>
-          <a href="#" onClick={(e)=>{e.preventDefault(); alert("Twitter placeholder — add your link.");}}>Twitter</a>
+          <a href="https://twitter.com/" target="_blank" rel="noreferrer">Twitter</a>
         </div>
       </div>
 
